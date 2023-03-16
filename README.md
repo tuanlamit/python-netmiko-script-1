@@ -22,3 +22,9 @@ IP addresses are covered up because the script was executed from the company's i
 Execution speed depends on a lot of factors, such as system hardware resouces, number of commands to run, etc...
 
 In this case, 27 routers were scripted and total time took was 13 seconds displayed in the screenshot above.
+
+# Outputs saved locally
+
+At line 14, you see that:
+>     out_file_name = f"/var/www/shared/back-up-configs/TS-18/show_running-config/wr+sho_run-{ip}.txt"
+
