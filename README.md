@@ -14,3 +14,4 @@ This is telnet within netmiko, you could also use SSH if you change this line to
 > 'device_type': 'cisco_ios_'
 
 After running the code, total execution time will be displayed at the bottom.
+![image](https://user-images.githubusercontent.com/128099142/225773439-63a78f4c-8dca-45d3-a7e4-c4bc038be72a.png)
