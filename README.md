@@ -103,6 +103,8 @@ sudo systemctl status apache2
 
 Below is an example of the outputs that were uploaded to the web server displayed via directory view.
 
+IP addresses were covered up again.
+
 ![image](https://user-images.githubusercontent.com/128099142/225777290-702eb9a0-6fa1-4ca3-8d18-41284e59ac21.png)
 
 
