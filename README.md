@@ -18,3 +18,7 @@ After running the code, total execution time will be displayed at the bottom.
 ![image](https://user-images.githubusercontent.com/128099142/225773439-63a78f4c-8dca-45d3-a7e4-c4bc038be72a.png)
 
 IP addresses are covered up because the script was executed from the company's internal network.
+
+Execution speed depends on a lot of factors, such as system hardware resouces, number of commands to run, etc...
+
+In this case, 27 routers were scripted and total time took was 13 seconds displayed in the screenshot above.
