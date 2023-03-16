@@ -44,20 +44,3 @@ for th in threads:
 
 end = time.time()
 print(f'Total Execution Time: {end-start}')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
