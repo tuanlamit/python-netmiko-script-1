@@ -1,11 +1,11 @@
 # python-netmiko-script-1
-This script netmiko_telnet_wr+sho_run.py was created to telnet to Cisco routers, do "wr" and "sho run" then save outputs locally.
+This script netmiko_telnet_wr+sho_run.py does telnet to Cisco routers, does "wr" and "sho run" then saves the outputs locally.
 
-The reason telnet was used was because this script was executed within a lab environment with no access to the outside internet.
+Reason for using telnet is because this script was executed within a lab environment with no access to the outside internet.
 
 Multi-threading was used to reduce execution time.
 
-You would need another file called "devices.txt" in the same folder as the script to hold the IP addresses.
+You would need another file "devices.txt" in the same folder as the script to hold the IP addresses.
 
 At line 29, where it says:
 > 'device_type': 'cisco_ios_telnet'
