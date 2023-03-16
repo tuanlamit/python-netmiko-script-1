@@ -1,4 +1,6 @@
 # python-netmiko-script-1
+Everything mentioned below is running on Ubuntu 22.04.
+
 This script netmiko_telnet_wr+sho_run.py does telnet to Cisco routers, does "wr" and "sho run", then saves the outputs locally.
 
 Reason for using telnet is because this script was executed within a lab environment with no access to the outside internet.
@@ -23,8 +25,62 @@ Execution speed depends on a lot of factors, such as system hardware resouces, n
 
 In this case, 27 routers were scripted and total time took was 13 seconds displayed in the screenshot above.
 
-# Outputs saved locally
+# outputs saved locally
 
 At line 14, you see that:
 >     out_file_name = f"/var/www/shared/back-up-configs/TS-18/show_running-config/wr+sho_run-{ip}.txt"
+
+You could stop at this point if this is where you'll be retrieving the outputs (or any directory you prefer).
+
+If you'd like to retrieve it from the web server (directory view) on the same Ubuntu system, you could:
+1) install apache2:
+> sudo apt update
+
+> sudo apt install apache2
+
+2) configure the apache2's default config file
+> sudo nano /etc/apache2/sites-available/000-default.conf
+
+<VirtualHost *:80>
+	# The ServerName directive sets the request scheme, hostname and port that
+	# the server uses to identify itself. This is used when creating
+	# redirection URLs. In the context of virtual hosts, the ServerName
+	# specifies what hostname must appear in the request's Host: header to
+	# match this virtual host. For the default virtual host (this file) this
+	# value is not decisive as it is used as a last resort host regardless.
+	# However, you must set it for any further virtual host explicitly.
+	#ServerName www.example.com
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/shared
+
+	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+	# error, crit, alert, emerg.
+	# It is also possible to configure the loglevel for particular
+	# modules, e.g.
+	#LogLevel info ssl:warn
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	# For most configuration files from conf-available/, which are
+	# enabled or disabled at a global level, it is possible to
+	# include a line for only one particular virtual host. For example the
+	# following line enables the CGI configuration for this host only
+	# after it has been globally disabled with "a2disconf".
+	#Include conf-available/serve-cgi-bin.conf
+</VirtualHost>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+Alias /shared /var/www/shared
+<Directory /var/www/shared>
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride All
+    Order allow,deny
+    allow from all
+    Require all granted
+</Directory>
+
+
+
 
