@@ -5,7 +5,7 @@ Reason for using telnet is because this script was executed within a lab environ
 
 Multi-threading was used to reduce execution time.
 
-You would need another file "devices.txt" in the same folder as the script to hold the IP addresses.
+You would need another file named "devices.txt" in the same folder as the script to hold the IP addresses.
 
 At line 29, where it says:
 > 'device_type': 'cisco_ios_telnet'
