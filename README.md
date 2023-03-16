@@ -10,10 +10,10 @@ Multi-threading was used to reduce execution time.
 You would need another file named "devices.txt" in the same folder as the script to hold the IP addresses.
 
 At line 29, where it says:
-> 'device_type': 'cisco_ios_telnet'
+>	'device_type': 'cisco_ios_telnet'
 
 This is telnet within netmiko, you could also use SSH if you change this line to:
-> 'device_type': 'cisco_ios'
+>	'device_type': 'cisco_ios'
 
 After running the code, total execution time will be displayed at the bottom.
 
@@ -28,18 +28,18 @@ In this case, 27 routers were scripted and total time took was 13 seconds displa
 # Part 2) (optional) outputs saved locally
 
 At line 14, you see that:
-> out_file_name = f"/var/www/shared/back-up-configs/TS-18/show_running-config/wr+sho_run-{ip}.txt"
+>	out_file_name = f"/var/www/shared/back-up-configs/TS-18/show_running-config/wr+sho_run-{ip}.txt"
 
 You could stop at this point if this is where you'll be retrieving the outputs (or any directory you prefer).
 
 If you'd like to retrieve it from the web server (directory view) on the same Ubuntu system, you could:
 1) install apache2:
-> sudo apt update
+>	sudo apt update
 
-> sudo apt install apache2
+>	sudo apt install apache2
 
 2) modify apache2's default config file
-> sudo nano /etc/apache2/sites-available/000-default.conf
+>	sudo nano /etc/apache2/sites-available/000-default.conf
 ```
 <VirtualHost *:80>
 	# The ServerName directive sets the request scheme, hostname and port that
