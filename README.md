@@ -38,13 +38,11 @@ out_file_name = f"/var/www/shared/back-up-configs/TS-18/show_running-config/wr+s
 
 You could stop at this point if this is where you'll be retrieving the outputs (or any directory you prefer).
 
-If you'd like to retrieve it from the web server (directory view) on the same Ubuntu system, you could:
+However, if you'd like to have those outputs automatically uploaded to a web server (with directory view) on the same Ubuntu system, you could:
+
 1) install apache2:
 ```
 sudo apt update
-```
-
-```
 sudo apt install apache2
 ```
 
@@ -94,6 +92,23 @@ Alias /shared /var/www/shared
     Require all granted
 </Directory>
 ```
+
+3) then restart the service and verify that apache2 is active:
+```
+sudo systemctl restart apache2
+sudo systemctl status apache2
+```
+
+4) the outputs are now accessible via http://x.x.x.x (input your system's IP address)
+
+Below is an example of the outputs that were uploaded to the web server displayed via directory view.
+
+![image](https://user-images.githubusercontent.com/128099142/225777290-702eb9a0-6fa1-4ca3-8d18-41284e59ac21.png)
+
+
+
+
+
 
 
 
