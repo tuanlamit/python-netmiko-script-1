@@ -38,9 +38,9 @@ If you'd like to retrieve it from the web server (directory view) on the same Ub
 
 > sudo apt install apache2
 
-2) configure the apache2's default config file
+2) modify apache2's default config file
 > sudo nano /etc/apache2/sites-available/000-default.conf
-
+```
 <VirtualHost *:80>
 	# The ServerName directive sets the request scheme, hostname and port that
 	# the server uses to identify itself. This is used when creating
@@ -80,7 +80,7 @@ Alias /shared /var/www/shared
     allow from all
     Require all granted
 </Directory>
-
+```
 
 
 
