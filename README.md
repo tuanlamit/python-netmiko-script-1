@@ -1,7 +1,7 @@
 # Part 1) netmiko_telnet_wr+sho_run.py
 Everything mentioned below is running on Ubuntu 22.04.
 
-This script netmiko_telnet_wr+sho_run.py does telnet to Cisco routers, does "wr" and "sho run", then saves the outputs locally.
+This script **netmiko_telnet_wr+sho_run.py** does telnet to Cisco routers, does "wr" and "sho run", then saves the outputs locally.
 
 Reason for using telnet is because this script was executed within a lab environment with no access to the outside internet.
 
