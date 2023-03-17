@@ -46,7 +46,7 @@ sudo apt update
 sudo apt install apache2
 ```
 
-2) modify apache2's default config file
+2) modify apache2's default config file to:
 ```
 sudo nano /etc/apache2/sites-available/000-default.conf
 ```
