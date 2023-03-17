@@ -1,6 +1,6 @@
 # Part 1) netmiko_telnet_wr+sho_run.py
 
-**"Notes: other scripts in this repo achieve similar purpose, just different command and output."**
+**"Notes: other scripts in this repo provides similar approach, just different command and output."**
 
 Everything mentioned in this repo is running on Ubuntu 22.04.
 
