@@ -1,5 +1,4 @@
-<details>
-# <summary>Part 1) netmiko_telnet_wr+sho_run.py</summary>
+# Part 1) netmiko_telnet_wr+sho_run.py
 Everything mentioned below is running on Ubuntu 22.04.
 
 This script **netmiko_telnet_wr+sho_run.py** does telnet to Cisco routers, does "wr" and "sho run", then saves the outputs locally.
@@ -30,11 +29,7 @@ Execution speed depends on a lot of factors, such as system hardware resouces, n
 
 In this case, 27 routers were scripted and total time took was 13 seconds displayed in the screenshot above.
 
-</details>
-
-<details>
-
-<summary># Part 2) (optional) outputs saved locally</summary>
+# Part 2) (optional) outputs saved locally</summary>
 
 At line 14, you see that:
 ```
@@ -111,12 +106,3 @@ Below is an example of the outputs that were uploaded to the web server displaye
 IP addresses were covered up again.
 
 ![image](https://user-images.githubusercontent.com/128099142/225777290-702eb9a0-6fa1-4ca3-8d18-41284e59ac21.png)
-
-</details>
-
-
-
-
-
-
-
