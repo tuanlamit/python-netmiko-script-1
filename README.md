@@ -1,10 +1,10 @@
 # Part 1) netmiko_telnet_wr+sho_run.py
 
-**"Notes: other scripts in this repo provides similar approach, just different command and output."**
+**"Notes: other scripts in this repo provides similar approach, just different commands and outputs."**
 
 Everything mentioned in this repo is running on Ubuntu 22.04.
 
-The **netmiko_telnet_wr+sho_run.py** script does telnet to the Cisco routers, sends "wr" and "sho run", then saves the outputs locally.
+The **netmiko_telnet_wr+sho_run.py** script uses telnet to access Cisco routers, sends "wr" and "sho run", and saves the outputs locally.
 
 Reason for using telnet is because the script was executed from the company's internal lab with no access to the outside internet.
 
@@ -12,7 +12,7 @@ Multi-threading was used to reduce execution time.
 
 Another file named "devices.txt" is needed in the same folder as the script to hold the IP addresses.
 
-At line 29, where it says:
+At line 29 in the script:
 ```
 'device_type': 'cisco_ios_telnet'
 ```
@@ -25,8 +25,6 @@ This is telnet within netmiko, ssh could also be used if this line is changed to
 After running the code, total execution time will be displayed at the bottom.
 
 ![image](https://user-images.githubusercontent.com/128099142/225773439-63a78f4c-8dca-45d3-a7e4-c4bc038be72a.png)
-
-Private IP addresses are covered up.
 
 Execution speed depends on many factors, such as system hardware resouces, number of commands to run, etc...
 
@@ -41,7 +39,7 @@ out_file_name = f"/var/www/shared/back-up-configs/TS-18/show_running-config/wr+s
 
 Outputs could be retrieved here (or any preferred directory).
 
-However, to have those outputs automatically uploaded to a web server (with directory view) on the same Ubuntu system, more steps are required:
+However, to have those outputs automatically uploaded to a web server (with directory view) on the same Ubuntu system, install apache2:
 
 1) install apache2:
 ```
@@ -105,7 +103,5 @@ sudo systemctl status apache2
 4) the outputs are now accessible via http://x.x.x.x (input local system's IP address)
 
 Below is an example of the outputs that were uploaded to the web server displayed via directory view.
-
-Private IP addresses were covered up.
 
 ![image](https://user-images.githubusercontent.com/128099142/225777290-702eb9a0-6fa1-4ca3-8d18-41284e59ac21.png)
