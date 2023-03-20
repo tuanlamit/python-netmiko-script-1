@@ -1,0 +1,14 @@
+- force AP to join a WLC:
+capwap ap primary-base WLC 192.168.100.100
+capwap ap restart
+
+- load AP image from TFTP server
+archive download-sw /reload tftp://192.168.50.10/C9800-L-universalk9_wlc.17.03.01.SPA.bin
+
+- to view AID
+show dot11 clients
+
+- send file from AP to host via scp:
+If file is in /storage, use copy flash
+If file is in /storage/cores, use copy cores
+copy cores asr2.log scp://Cisco@x.x.x.x:/Users/Cisco/Desktop/Shared

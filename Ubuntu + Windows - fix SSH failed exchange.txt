@@ -1,0 +1,11 @@
+SSH exchange failed on Ubuntu:
+- do this on the Ubuntu host we ssh from
+- add the correct KexAlgorithms (this depends on the error received):
+sudo nano /etc/ssh/ssh_config
+KexAlgorithms=+diffie-hellman-group1-sha1
+
+SSH exchange failed on Windows:
+- do this on the Ubuntu host we ssh from
+- don't need to do anything to the ssh config file
+- run this in cmd:
+ssh -oKexAlgorithms=+diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1 username@x.x.x.x
