@@ -34,7 +34,7 @@ In this case, 27 routers were scripted and the total time took was 13 seconds di
 
 At line 14:
 ```
-out_file_name = f"/var/www/shared/back-up-configs/TS-18/show_running-config/wr+sho_run-{ip}.txt"
+out_file_name = f"/var/www/shared/BLD-18/terminal_servers_backup_configs/show_running-config/sho_run-{ip}.txt"
 ```
 
 Outputs could be retrieved here (or any preferred directory).
