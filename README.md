@@ -30,7 +30,7 @@ Execution speed depends on many factors, such as system hardware resouces, numbe
 
 In this case, 27 routers were scripted and the total time took was 13 seconds displayed in the screenshot above.
 
-# Part 2) (optional) outputs saved locally</summary>
+# Part 2) (optional) outputs sync to apache</summary>
 
 At line 14:
 ```
