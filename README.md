@@ -2,7 +2,7 @@
 
 **"Notes: other scripts in this repo provides similar approach, just different commands and outputs."**
 
-Everything mentioned in this repo is running on Ubuntu 22.04.
+Everything mentioned in this repo is running under Ubuntu 22.04.
 
 The **netmiko_telnet_wr+sho_run.py** script uses telnet to access Cisco routers, sends "wr" and "sho run", and saves the outputs locally.
 
