@@ -1,7 +1,0 @@
-Link: https://www.youtube.com/watch?v=9WSL3vHhkT0
-
-1) outputs are saved at private/var/temp
-
-2) use this command to move the output to Desktop:
-mv /var/tmp/name-of-file ~/Desktop/name-of-file
-
