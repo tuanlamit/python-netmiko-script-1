@@ -8,7 +8,7 @@ Telnet was used instead of SSH because this is a testing environment running in 
 
 You'll need to create a .txt file to store IP addresses in the same folder.
 
-At line 29 in the script:
+At line:
 ```
 'device_type': 'cisco_ios_telnet'
 ```
@@ -21,7 +21,7 @@ This is telnet within netmiko, ssh could also be used if this line is changed to
 
 # Outputs sync to apache</summary>
 
-At line 14:
+At line:
 ```
 out_file_name = f"/var/www/shared/BLD-18/terminal_servers_backup_configs/show_running-config/sho_run-{ip}.txt"
 ```
