@@ -1,6 +1,6 @@
 # Save the config and export it as a back-up.
 
-Code executed on Ubuntu 22.04 to script approximately 100 Cisco terminal servers (routers) in the same network.
+Code executed on Ubuntu 22.04 to script approximately 100 Cisco terminal servers (routers).
 
 Telnet was used instead of SSH because this is a testing environment running in the company's internal network; firewall was also disabled.  Below is the topology:
 
