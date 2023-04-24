@@ -2,7 +2,7 @@
 
 Code executed on Ubuntu 22.04. 
 
-Reason for using telnet is because the script was executed from the company's internal lab with no access to the outside internet. SSH was not used, and firewall was also disabled.  Below is the topology:
+Telnet was used instead of SSH because this is a testing environment within the company's internal lab;irewall was also disabled.  Below is the topology:
 
 
 
