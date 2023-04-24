@@ -2,7 +2,9 @@
 
 Code executed on Ubuntu 22.04 to script approximately 100 Cisco terminal servers (routers).
 
-Telnet was used instead of SSH because this is a testing environment running in the company's internal network; firewall was also disabled. Below is the topology:
+Telnet was used instead of SSH because this is a testing environment running in the company's internal network, so SSH wasn't necessary; firewall was also disabled.
+
+Below is the topology:
 
 ![image](https://user-images.githubusercontent.com/128099142/233894228-dbb6538b-ac53-4065-860b-3afb16e1979c.png)
 
