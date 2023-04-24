@@ -26,4 +26,4 @@ At line 14:
 out_file_name = f"/var/www/shared/BLD-18/terminal_servers_backup_configs/show_running-config/sho_run-{ip}.txt"
 ```
 
-You can save the back-ups to your desired destination, I prefer to use the above path because I wanted the changes to reflect on the web via http://x.x.x.x
+You can save the back-ups to your desired destination, I prefer to use the above path because I wanted the changes to reflect on the web browser (apache2 is needed).
