@@ -13,7 +13,7 @@ At line:
 'device_type': 'cisco_ios_telnet'
 ```
 
-This is telnet within netmiko, ssh could also be used if this line is changed to:
+This is telnet within netmiko, SSH could also be used if this line is changed to:
 ```
 'device_type': 'cisco_ios'
 ```
