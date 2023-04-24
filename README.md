@@ -2,7 +2,7 @@
 
 Code executed on Ubuntu 22.04. 
 
-Telnet was used instead of SSH because this is a testing environment within the company's internal lab;irewall was also disabled.  Below is the topology:
+Telnet was used instead of SSH because this is a testing environment running in the company's internal network; firewall was also disabled.  Below is the topology:
 
 
 
