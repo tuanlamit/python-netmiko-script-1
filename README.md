@@ -1,27 +1,25 @@
-# Save the config and export it as a back-up.
+# Save the config locally
 
 Code executed on Ubuntu 22.04 to script approximately 100 Cisco terminal servers (routers).
 
-Telnet was used instead of SSH because this is a testing environment running in the company's internal network, so SSH wasn't necessary; firewall was also disabled.
+As team requested, telnet was used to script the routers in the lab.
 
 Below is the topology:
 
 ![image](https://user-images.githubusercontent.com/128099142/233894228-dbb6538b-ac53-4065-860b-3afb16e1979c.png)
 
-You'll need to create a .txt file to store IP addresses in the same folder.
-
-At line:
+This line in the code specifies telnet usage
 ```
 'device_type': 'cisco_ios_telnet'
 ```
 
-This is telnet within netmiko, SSH could also be used if this line is changed to:
+Change value to 'cisco_ios' if you prefer to use SSH
 ```
 'device_type': 'cisco_ios'
 ```
 
 
-# Outputs sync to apache</summary>
+# Storing outputs
 
 At line:
 ```
