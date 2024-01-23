@@ -20,8 +20,7 @@ Modify value to 'cisco_ios' if you prefer to use SSH
 
 Virtual Topology:
 
-![example3](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/d9dab8e1-a801-46da-82c6-38c01a5df168)
-
+![example3](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/15b92484-9466-42e3-b267-ded109c5afa6)
 
 Workspace:
 
