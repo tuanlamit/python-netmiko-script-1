@@ -8,7 +8,7 @@ As team requested, telnet was used to script the routers in the lab. Below is th
 
 ![image](https://user-images.githubusercontent.com/128099142/233894228-dbb6538b-ac53-4065-860b-3afb16e1979c.png)
 
-This line in the netmiko_telnet_wr+sho_run.py specifies telnet usage
+This line in the netmiko_telnet_wr+sho_run.py file specifies telnet usage
 ```
 'device_type': 'cisco_ios_telnet'
 ```
