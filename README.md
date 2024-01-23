@@ -17,7 +17,7 @@ Below is the physical lab topology:
 
 # Virtual lab example using the same codes
 
-Working Directory & Outputs:
+Working Directory & Result:
 
 ![example1](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/12835855-ea8f-4c3c-af51-78d39e86f6d9)
 
