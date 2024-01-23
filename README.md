@@ -5,8 +5,6 @@
 
 Code executed on Ubuntu 22.04 to script approximately 100 Cisco terminal servers (routers).
 
-This line in the netmiko_telnet_wr+sho_run.py file specifies telnet usage
-
 Modify 'cisco_ios_telnet' to 'cisco_ios' from the config file if you prefer to use SSH
 
 As team requested, telnet was used to script the routers in the lab. Below is the physical lab topology:
