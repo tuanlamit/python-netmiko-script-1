@@ -7,7 +7,9 @@ Code executed on Ubuntu 22.04 to script approximately 100 Cisco terminal servers
 
 Modify 'cisco_ios_telnet' to 'cisco_ios' from the config file if you prefer to use SSH
 
-As team requested, telnet was used to script the routers in the lab. Below is the physical lab topology:
+As team requested, telnet was used to script the routers in the lab. 
+
+Below is the physical lab topology:
 
 ![image](https://user-images.githubusercontent.com/128099142/233894228-dbb6538b-ac53-4065-860b-3afb16e1979c.png)
 
