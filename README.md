@@ -12,7 +12,7 @@ As team requested, telnet was used to script the routers in the lab. Below is th
 ![image](https://user-images.githubusercontent.com/128099142/233894228-dbb6538b-ac53-4065-860b-3afb16e1979c.png)
 
 
-# Another virtual example using the same codes
+# Example in a virtual lab using the same codes
 
 Working Directory & Result:
 
