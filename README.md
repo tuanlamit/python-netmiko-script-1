@@ -1,4 +1,4 @@
-# Save the config locally
+# Script and store the configs locally
 
 Code executed on Ubuntu 22.04 to script approximately 100 Cisco terminal servers (routers).
 
