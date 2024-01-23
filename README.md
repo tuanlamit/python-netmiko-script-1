@@ -22,11 +22,11 @@ As team requested, telnet was used to script the routers in the lab. Below is th
 
 # Another virtual example using the same codes
 
-Working Directory:
+Working Directory & Result:
 
 ![example1](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/12835855-ea8f-4c3c-af51-78d39e86f6d9)
 
-Result:
+Stored Outputs:
 
 ![example2](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/e3b27d2b-6e83-4ba1-80d1-a5d590c786d2)
 
