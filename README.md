@@ -24,7 +24,7 @@ Virtual Topology:
 
 ![example3](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/15b92484-9466-42e3-b267-ded109c5afa6)
 
-Workspace:
+Working Directory:
 
 ![example1](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/12835855-ea8f-4c3c-af51-78d39e86f6d9)
 
