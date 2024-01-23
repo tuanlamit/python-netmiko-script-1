@@ -22,10 +22,6 @@ As team requested, telnet was used to script the routers in the lab. Below is th
 
 # This section below is an example on scripting the routers from GNS3 VM using the same code
 
-Virtual Topology:
-
-![example3](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/15b92484-9466-42e3-b267-ded109c5afa6)
-
 Working Directory:
 
 ![example1](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/12835855-ea8f-4c3c-af51-78d39e86f6d9)
