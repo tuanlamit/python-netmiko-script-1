@@ -1,5 +1,6 @@
 # (Script is being improved, will upload once complete)
 
+
 # Script the routers and store the configs locally
 
 Code executed on Ubuntu 22.04 to script approximately 100 Cisco terminal servers (routers).
@@ -17,6 +18,7 @@ Modify value to 'cisco_ios' if you prefer to use SSH
 As team requested, telnet was used to script the routers in the lab. Below is the physical lab topology:
 
 ![image](https://user-images.githubusercontent.com/128099142/233894228-dbb6538b-ac53-4065-860b-3afb16e1979c.png)
+
 
 # Another virtual example using the same codes
 
