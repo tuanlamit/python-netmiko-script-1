@@ -16,7 +16,7 @@ Modify value to 'cisco_ios' if you prefer to use SSH
 'device_type': 'cisco_ios'
 ```
 
-# This section below is an example on scripting the routers in GNS3 VM using the same code
+# This section below is an example on scripting the routers from GNS3 VM using the same code
 
 Virtual Topology:
 
