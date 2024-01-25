@@ -1,6 +1,3 @@
-# (Script is being improved, will upload once complete)
-
-
 # Script the routers and store the configs locally
 
 Code executed on Ubuntu 22.04 to script approximately 100 Cisco terminal servers (routers).
