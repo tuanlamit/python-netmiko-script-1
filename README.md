@@ -19,10 +19,11 @@ Below is the physical lab topology:
 
 Working Directory & Result:
 
-![1](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/b981c81f-9e4b-4279-a34f-a6a0ad3c3c90)
+![1](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/546220a7-a9ba-4ff5-9231-06a48be41fb9)
 
 Stored Configs:
 
-![2](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/adbc8324-6653-47a8-9054-dbf57b7c845e)
+![2](https://github.com/tuanlamit/python-netmiko-script-1/assets/128099142/17fc3810-4da2-4038-a87f-0978ffbce197)
+
 
 
