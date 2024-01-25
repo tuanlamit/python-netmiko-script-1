@@ -1,0 +1,19 @@
+[
+    {
+        "device_type": "cisco_ios_telnet",
+        "host": "192.168.123.200",
+        "username": "lab",
+        "password": "lab",
+        "secret": "cisco",
+        "verbose": true
+    },
+    {
+        "device_type": "cisco_ios_telnet",
+        "host": "192.168.123.201",
+        "username": "lab",
+        "password": "lab",
+        "secret": "cisco",
+        "verbose": true
+    }
+]
+
