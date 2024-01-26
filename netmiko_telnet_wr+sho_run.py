@@ -4,7 +4,7 @@ from configparser import ConfigParser
 # import the ConnectHandler class from the netmiko library to establish SSH connection and send commands
 from netmiko import ConnectHandler
 
-# import these modules to record and speed up execution time and to pasre the json file
+# import these modules to record and speed up execution time and to parse the json file
 import time, threading, json
 
 # mark starting time at the beginning of the script
