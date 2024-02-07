@@ -1,5 +1,7 @@
 # Script the routers and store the configs locally
 
+Telnet to Cisco routers via mgmt. IP address, do "wr" & "sho run" then save output locally
+
 Code executed on Ubuntu 22.04 to script approximately 100 Cisco terminal servers (routers).
 
 As team requested, telnet was used to script the routers in the lab. 
